@@ -213,5 +213,6 @@ rake kallisto:runAndStorePaired[Index,folder/with/samples/ACCESSION,experiment_t
 The task requires that the reads are in a folder named exactly as the ```secondary\_study\_accession*``` column in the metadata file. If the accession doesn't exist, the task will fail. ```experiment_title``` is a name to group alignments (Currently not in use, but will be used as we grow the database). 
 
 
+To start the web server type: ``` rails server ```
 
 
